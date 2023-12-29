@@ -54,6 +54,7 @@ body:
         appVersion: 0.150.0
         buildTimestamp: 2023-12-29T10:41:15.288818966Z
         ...
+      render: sh
     validations:
       required: true
   - type: textarea
