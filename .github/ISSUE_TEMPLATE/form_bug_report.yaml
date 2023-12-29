@@ -48,7 +48,7 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: `kamu version` output
+      label: Output of `kamu version`
       description: |
         appVersion: 0.150.0
         buildTimestamp: 2023-12-29T10:41:15.288818966Z
