@@ -1,6 +1,6 @@
 name: 🐞 Bug
 description: Create a report to help us improve
-title: "[BUG] <title>"
+title: "<title>"
 labels: ["Bug"]
 body:
   - type: checkboxes
@@ -53,17 +53,7 @@ body:
         $ kamu version
         appVersion: 0.150.0
         buildTimestamp: 2023-12-29T10:41:15.288818966Z
-        gitDescribe: v0.148.0-22-ga81f7224
-        gitSha: a81f722444fb3da2373518b523ab1ecfba1860f2
-        gitCommitDate: 2023-12-29
-        gitBranch: bug/fix-ingest-loop
-        rustcSemver: 1.76.0-nightly
-        rustcChannel: nightly
-        rustcHostTriple: x86_64-unknown-linux-gnu
-        rustcCommitSha: 90e321d82a0a9c3d0e3f180d4d17541b729072e0
-        cargoTargetTriple: x86_64-unknown-linux-gnu
-        cargoFeatures: default
-        cargoOptLevel: '0'
+        ...
     validations:
       required: true
   - type: textarea
