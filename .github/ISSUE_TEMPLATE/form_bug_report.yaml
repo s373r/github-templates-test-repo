@@ -48,8 +48,9 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Output of `kamu version`
+      label: kamu version output
       description: |
+        $ kamu version
         appVersion: 0.150.0
         buildTimestamp: 2023-12-29T10:41:15.288818966Z
         gitDescribe: v0.148.0-22-ga81f7224
